@@ -1,7 +1,7 @@
--- script that creates a table users
--- with the following requirements
-CREATE TABLE IF NOT EXISTS users (
-	id INT AUTO_INCREMENT PRIMARY KEY,
+--  SQL script that creates a table users
+
+CREATE TABLE IF NOT EXISTS users(
+	id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 	email VARCHAR(255) NOT NULL UNIQUE,
 	name VARCHAR(255)
 	);
